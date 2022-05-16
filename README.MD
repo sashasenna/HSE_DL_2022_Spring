@@ -26,3 +26,11 @@
    - [Weight initialization](https://www.deeplearningwizard.com/deep_learning/boosting_models_pytorch/weight_initialization_activation_functions/)
    - [Python generators](https://realpython.com/introduction-to-python-generators/)
    - [Iterators vs Generators](https://stackoverflow.com/questions/2776829/difference-between-pythons-generators-and-iterators)
+05. Батч-нормализация. Инициализация. Эвристики для обучения сетей
+   - [BatchNorm explained](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338)
+   - [Custom weight decay](https://raberrytv.wordpress.com/2017/10/29/pytorch-weight-decay-made-easy/)
+   - [Inverted dropout](https://www.coursera.org/lecture/deep-neural-network/dropout-regularization-eM33A)
+06. Введение в NLP, Word2Vec, Эмбеддинги
+   - [MLE explained](https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)
+   - [Супер NLP guide от Lena Voita](https://lena-voita.github.io/nlp_course.html)
+   - [Word2Vec tutorial с математикой и кодом](https://github.com/Yorko/mlcourse.ai/blob/main/jupyter_russian/tutorials/word2vec_demonzheg.ipynb)
