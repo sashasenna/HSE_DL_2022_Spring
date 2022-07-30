@@ -11,10 +11,10 @@
 | 2      | HW02_gradient.ipynb                    | Реализовать градиентный спуск            | 29.04.22 |
 | 3      | HW03_Weather_forecast_RNN.ipynb        | Обучить RNN                              | 05.06.22 |
 | 4      | HW04_Attention_basics.ipynb            | Реализовать вариации Attention           | 14.06.22 |
-
+| 5      | HW05_Autorncoder_manifold (в семинарах)| Реализовать Conv Autoencoder             | 29.07.22 |
 
 ### Программа курса + ссылки на хорошие материалы по теме
-#### Полносвязные сети
+#### Feedforward NNs
 01. Введение в нейросети
 02. Адаптивные варианты градиентного спуска
    - [Почему momentum работает](https://distill.pub/2017/momentum/)
@@ -49,3 +49,31 @@
    - [BERT, ELMO explained](https://jalammar.github.io/illustrated-bert/)
    - [Why BERT is called bidirectional?](https://medium.com/dissecting-bert/dissecting-bert-part2-335ff2ed9c73)
    - [Harvard transformer implementation](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+#### CV
+10. Свёрточные нейронные сети
+   - [Convolution in CNN explained](https://www.youtube.com/watch?v=KTB_OFoAQcc)
+   - [Dilated convolutions](https://www.inference.vc/dilated-convolutions-and-kronecker-factorisation/)
+11. Transformers practice
+   - [Описание различных tokenizers](https://huggingface.co/docs/transformers/tokenizer_summary)
+   - [Эффективное использование GPU](https://huggingface.co/docs/transformers/perf_train_gpu_one)
+12. Transfer learning
+   - [ResNet](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)
+   - [1x1 convolution](https://stats.stackexchange.com/questions/194142/what-does-1x1-convolution-mean-in-a-neural-network)
+13. Интерпретация свёрточных нейронных сетей. Перенос стиля
+   - [Что выучивает сеть?](https://towardsdatascience.com/understanding-your-convolution-network-with-visualizations-a4883441533b)
+   - [Перенос стиля](https://towardsdatascience.com/neural-style-transfer-applications-data-augmentation-43d1dc1aeecc) 
+14. Autoencoders. Manifold learning
+   - [Transpose Convolutions and Autoencoders](https://www.cs.toronto.edu/~lczhang/360/lec/w05/autoencoder.html)
+   - [Denoising Autoencoders](https://medium.com/@garimanishad/reconstruct-corrupted-data-using-denoising-autoencoder-python-code-aeaff4b0958e)
+   - [Unsampling: Unpooling and Transpose Convolution](https://medium.com/jun-devpblog/dl-12-unsampling-unpooling-and-transpose-convolution-831dc53687ce)
+   - [Что такое manifold. Интуиция, стоящая за этим понятием](https://bjlkeng.github.io/posts/manifolds/)
+   - [Manifold learning и скрытые переменные](https://habr.com/ru/post/331500/)
+   - [Manifold learning on MNIST -> 2D-representation learned by an autoencoder](https://www.kaggle.com/apapiu/manifold-learning-and-autoencoders/notebook)
+15. Генеративно-состязательные сети
+   - [GAN explained](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans/lecture/gIAJ0/putting-it-all-together)
+   - [Deconvolution issue. Checkerboard](https://distill.pub/2016/deconv-checkerboard/)
+   - [VAE ultimate guide & intuition](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
+16. Свёрточные сети для текстов
+   - [Лекция от МФТИ](https://www.youtube.com/watch?v=egvX1wGCKSg&list=PL4_hYwCyhAvY7k32D65q3xJVo8X8dc3Ye&index=3)
+   - [Text Classification using CNN, RNN](https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f)
+   - [CNN for Sentence Classification, Kim paper](https://arxiv.org/pdf/1408.5882.pdf)
